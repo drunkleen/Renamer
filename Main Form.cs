@@ -163,6 +163,24 @@ namespace drag_and_drop
         {
 
         }
+
+        private void lblPin_Click(object sender, EventArgs e)
+        {
+            this.TopMost = true;
+            lblPin.Visible = false;
+            lblPin.Enabled = false;
+            lblUnpin.Visible = true;
+            lblUnpin.Enabled = true;
+        }
+
+        private void lblUnpin_Click(object sender, EventArgs e)
+        {
+            this.TopMost = false;
+            lblPin.Visible = true;
+            lblPin.Enabled = true;
+            lblUnpin.Visible = false;
+            lblUnpin.Enabled = false;
+        }
     }
 }
 

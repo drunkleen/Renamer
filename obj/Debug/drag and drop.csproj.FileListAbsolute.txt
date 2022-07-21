@@ -11,3 +11,15 @@ C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag and d
 C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag and drop.csproj.CopyComplete
 C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag and drop.exe
 C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag and drop.pdb
+D:\GitHub\Renamer\bin\Debug\drag and drop.exe.config
+D:\GitHub\Renamer\bin\Debug\drag and drop.exe
+D:\GitHub\Renamer\bin\Debug\drag and drop.pdb
+D:\GitHub\Renamer\obj\Debug\drag and drop.csproj.AssemblyReference.cache
+D:\GitHub\Renamer\obj\Debug\drag and drop.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Renamer\obj\Debug\drag_and_drop.MainForm.resources
+D:\GitHub\Renamer\obj\Debug\drag_and_drop.Properties.Resources.resources
+D:\GitHub\Renamer\obj\Debug\drag and drop.csproj.GenerateResource.cache
+D:\GitHub\Renamer\obj\Debug\drag and drop.csproj.CoreCompileInputs.cache
+D:\GitHub\Renamer\obj\Debug\drag and drop.csproj.CopyComplete
+D:\GitHub\Renamer\obj\Debug\drag and drop.exe
+D:\GitHub\Renamer\obj\Debug\drag and drop.pdb

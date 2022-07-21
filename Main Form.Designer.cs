@@ -35,16 +35,18 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.ListBoxObjects = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.guna2TextDate = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.lblPin = new System.Windows.Forms.Label();
+            this.lblUnpin = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -86,21 +88,6 @@
             this.ListBoxObjects.TabIndex = 3;
             this.ListBoxObjects.SelectedIndexChanged += new System.EventHandler(this.ListBoxObjects_SelectedIndexChanged);
             // 
-            // label1
-            // 
-            this.label1.AllowDrop = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.Image = global::drag_and_drop.Properties.Resources.Untitled_12;
-            this.label1.Location = new System.Drawing.Point(27, 79);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(539, 480);
-            this.label1.TabIndex = 2;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            this.label1.DragDrop += new System.Windows.Forms.DragEventHandler(this.label1_DragDrop);
-            this.label1.DragOver += new System.Windows.Forms.DragEventHandler(this.label1_DragOver);
-            this.label1.DragLeave += new System.EventHandler(this.label1_DragLeave);
-            // 
             // label2
             // 
             this.label2.AllowDrop = true;
@@ -138,6 +125,21 @@
             // guna2Elipse2
             // 
             this.guna2Elipse2.TargetControl = this.label1;
+            // 
+            // label1
+            // 
+            this.label1.AllowDrop = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label1.Image = global::drag_and_drop.Properties.Resources.Untitled_12;
+            this.label1.Location = new System.Drawing.Point(27, 79);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(539, 480);
+            this.label1.TabIndex = 2;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.DragDrop += new System.Windows.Forms.DragEventHandler(this.label1_DragDrop);
+            this.label1.DragOver += new System.Windows.Forms.DragEventHandler(this.label1_DragOver);
+            this.label1.DragLeave += new System.EventHandler(this.label1_DragLeave);
             // 
             // guna2Elipse3
             // 
@@ -194,7 +196,7 @@
             this.guna2TextDate.Font = new System.Drawing.Font("Nirmala UI", 14.25F);
             this.guna2TextDate.ForeColor = System.Drawing.Color.White;
             this.guna2TextDate.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextDate.Location = new System.Drawing.Point(99, 27);
+            this.guna2TextDate.Location = new System.Drawing.Point(120, 27);
             this.guna2TextDate.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.guna2TextDate.Name = "guna2TextDate";
             this.guna2TextDate.PasswordChar = '\0';
@@ -208,11 +210,31 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 15.75F);
-            this.label4.Location = new System.Drawing.Point(25, 29);
+            this.label4.Location = new System.Drawing.Point(46, 29);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 30);
             this.label4.TabIndex = 9;
             this.label4.Text = "Date:";
+            // 
+            // lblPin
+            // 
+            this.lblPin.Image = global::drag_and_drop.Properties.Resources.pin;
+            this.lblPin.Location = new System.Drawing.Point(12, 17);
+            this.lblPin.Name = "lblPin";
+            this.lblPin.Size = new System.Drawing.Size(25, 25);
+            this.lblPin.TabIndex = 12;
+            this.lblPin.Click += new System.EventHandler(this.lblPin_Click);
+            // 
+            // lblUnpin
+            // 
+            this.lblUnpin.Enabled = false;
+            this.lblUnpin.Image = global::drag_and_drop.Properties.Resources.unpin;
+            this.lblUnpin.Location = new System.Drawing.Point(12, 17);
+            this.lblUnpin.Name = "lblUnpin";
+            this.lblUnpin.Size = new System.Drawing.Size(25, 25);
+            this.lblUnpin.TabIndex = 11;
+            this.lblUnpin.Visible = false;
+            this.lblUnpin.Click += new System.EventHandler(this.lblUnpin_Click);
             // 
             // MainForm
             // 
@@ -221,6 +243,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
             this.ClientSize = new System.Drawing.Size(870, 584);
+            this.Controls.Add(this.lblPin);
+            this.Controls.Add(this.lblUnpin);
             this.Controls.Add(this.guna2TextDate);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -235,7 +259,6 @@
             this.Name = "MainForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = " ";
-            this.TopMost = true;
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -259,6 +282,8 @@
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextDate;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblPin;
+        private System.Windows.Forms.Label lblUnpin;
     }
 }
 
