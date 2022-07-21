@@ -1,31 +1,3 @@
-3 Kaiser Hof
-Alte Fettschmelze
-Autohaus Jan Wirthgen/Skoda
-Autohaus Holm Wirthgen
-Baustelle BSZ f. Wirtschaft
-Breitscheidstrasse 40
-EKZ Hohenbusch Weixdorf
-Enderstrasse
-First Class Concept
-Focus Enderpark
-Galvanik Heidenau
-Geschwister Scholl-Str.1
-Konigsbrucker Str. 117a/119
-Lackfabrik 
-Lockwitzer
-MS-Tec Gebaudetechnik
-Nestler
-Ortel Gerustbau
-Parkhaus Pirna
-Porschezentrum Dresden
-Racknitzforum
-Radebeul
-Schule fur Erziehungshilfe
-St. Joseph Stift
-Sternstrassse
-Theater der jungen Generation
-TSF Sportpark
-TVB
-Vielfalt Menu GmbH
-Werdauer Strasse 1-3
-WGP Pirna
+1.Name
+2.Name
+3.Name
