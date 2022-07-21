@@ -1,0 +1,13 @@
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\bin\Debug\drag and drop.exe.config
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\bin\Debug\drag and drop.exe
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\bin\Debug\drag and drop.pdb
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\bin\Debug\Guna.UI2.dll
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag and drop.csproj.AssemblyReference.cache
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag and drop.csproj.SuggestedBindingRedirects.cache
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag_and_drop.MainForm.resources
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag_and_drop.Properties.Resources.resources
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag and drop.csproj.GenerateResource.cache
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag and drop.csproj.CoreCompileInputs.cache
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag and drop.csproj.CopyComplete
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag and drop.exe
+C:\Users\DrunkLeen\source\repos\drag and drop\drag and drop\obj\Debug\drag and drop.pdb
