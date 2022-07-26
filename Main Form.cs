@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Text;
 
 namespace drag_and_drop
 {
@@ -32,8 +33,12 @@ namespace drag_and_drop
                     for (int i = 0; i < 4; i++)
                     {
                         string strListItem = sr.ReadLine();
+
+
                         if (!String.IsNullOrEmpty(strListItem))
+                        {
                             ListBoxObjects.Items.Add(strListItem);
+                        }
                     }
                 }
             }
@@ -188,6 +193,7 @@ namespace drag_and_drop
 
 namespace System.IO
 {
+
     public static class ExtendedMethod
     {
         public static void Rename(this FileInfo fileInfo, string newName)
